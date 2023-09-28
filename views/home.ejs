@@ -1,0 +1,34 @@
+<style>
+    #mainContainer{
+        text-align: center;
+        margin:150px;
+        color:#ffffff;
+    }
+    #innerContainer{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn{
+        padding: 10px;
+        border-Radius:5px;
+        margin:5px;
+        font:medium;
+        cursor:pointer;
+    }
+</style>
+
+<div id="mainContainer">
+    <h1>Data Extraction from Backend</h1>
+    <div id="innerContainer">
+        <form action="/home/usersList" method="get">
+            <button class="btn">Users List</button>
+            </form>
+            <form action="/home/postsList" method="get">
+            <button class="btn">Users Posts</button>
+            </form>
+    </div>   
+</div>
+
